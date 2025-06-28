@@ -14,17 +14,13 @@ const Header = () => {
           आत्मनिर्भरताको लागि प्राविधिक शिक्षा
         </div>
         <div className="flex items-center gap-2">
-          <input
-            type="text"
-            id="Search"
-            placeholder="Search"
-            className="p-2 border border-gray-300 rounded-md w-48 text-center bg-white text-black font-semibold"
-          />
+        
           <button
             id="search-button"
-            className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+            className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition cursor-pointer"
+            onClick={() => window.open("https://nbkform.onrender.com", "_blank")}
           >
-            Search
+            Fill Form
           </button>
         </div>
       </header>

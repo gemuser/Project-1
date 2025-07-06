@@ -660,8 +660,10 @@ const Department = () => {
   }, {});
 
   return (
+    <>
+    <Header />
     <div className="faculty-page">
-        <Header />
+        
       {/* Hero Section */}
       <div className="faculty-hero">
         <div className="hero-background"></div>
@@ -877,6 +879,7 @@ const Department = () => {
       )}
         <Footer />
     </div>
+    </>
   );
 };
 

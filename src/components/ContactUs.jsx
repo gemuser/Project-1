@@ -100,8 +100,9 @@ const ContactUs = () => {
   ];
 
   return (
-    <div className="contact-page">
+    <>
     <Header />
+    <div className="contact-page">
       {/* Hero Section */}
       <div className="contact-hero">
         <div className="hero-background"></div>
@@ -348,6 +349,7 @@ const ContactUs = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

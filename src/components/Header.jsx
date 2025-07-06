@@ -17,7 +17,7 @@ const Header = () => {
         
           <button
             id="search-button"
-            className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition cursor-pointer"
+            className="bg-blue-600 text-lg text-white px-10 py-2 rounded-md hover:bg-blue-700 transition cursor-pointer ml-23"
             onClick={() => window.open("https://nbkform.onrender.com", "_blank")}
           >
             Fill Form
